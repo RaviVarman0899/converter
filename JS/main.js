@@ -16,11 +16,9 @@ function convert() {
     }
     else if (usdOption == "CAD") {
         document.getElementById("CAD").value = parseFloat(usd * 0.756);
-        alert(usd + " CAD is equal to " + parseFloat(usd * 0.756));
     }
     else if (usdOption == "USD") {
-        document.getElementById("CAD").value = parseFloat(usd * 1.322)
-        alert(usd + " USD is equal to " + parseFloat(usd * 1.322));
+        document.getElementById("CAD").value = parseFloat(usd * 1.322);
     }
 
 }
